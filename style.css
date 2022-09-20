@@ -1,0 +1,121 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #F3F5FC;
+}
+.container{
+  margin: auto;
+  width: 960px;
+  height: 650px;
+  padding: 2px;
+}
+.logo{
+  width: 100%;
+  float: left;
+}
+.left{
+  float: left;
+  width: 65%;
+  height: 70%;
+  border-radius: 24px;
+}
+.right{
+  float: right;
+  width: 35%;
+  height:auto;
+  border-radius: 24px;
+}
+.left-button{
+  float: left;
+  width: 65%;
+  height: auto;
+  border-radius: 24px;
+}
+.logoImg{
+  margin-top: 1%;
+  margin-left: 5%;
+  float:inherit;
+}
+.tittle{
+  float: inherit;
+  margin-left: 15%;
+  font-style: italic;
+}
+.text-input{
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 80%;
+  height: 80%;
+  color: #0A3871;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: #F3F5FC;
+  color: #0A3871;
+}
+#imgDer{
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 80%;
+  height: auto;
+}
+#texto{
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#texto2{
+float: left;
+margin-left: 10%;
+color: #0A3871;
+width: 80%;
+height: 60%;
+border: none;
+outline: none;
+font-size: 15px;
+}
+#btn-encriptar{
+  padding:24px;
+  width: 30%;
+  height: 60%;
+  border-radius: 24px;
+  margin-left: 15%;
+  background: #0A3871;
+  transition: 1s all;
+  cursor: pointer;
+}
+#btn-encriptar:hover{
+    background: lightgreen;
+    transform: scale(1.2); 
+}
+#btn-desencriptar{
+  padding:24px;
+  width: 30%;
+  height: 60%;
+  border-radius: 24px;
+  margin-left: 15%;
+  background: #D8DFE8;
+  transition: 1s all;
+  cursor: pointer;
+}
+#btn-desencriptar:hover{
+  background: lightpink;
+  transform: scale(1.2);
+}
+#copiar{
+  margin-left: 33%;
+  margin-top: 90%;
+  padding: 24px;
+  width: 40%;
+  height: 10%;
+  background: #D8DFE8;
+  border-radius: 24px;
+  display: none;
+}
+.rodapie{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5%;
+  background: url(img/piepag.png);
+  }
